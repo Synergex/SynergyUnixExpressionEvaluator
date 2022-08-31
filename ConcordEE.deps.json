@@ -1,0 +1,277 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "ConcordEE/1.0.0": {
+        "dependencies": {
+          "Microsoft.VSSDK.Debugger.VSDConfigTool": "16.10.1051404",
+          "Microsoft.VisualStudio.Debugger.Engine": "16.10.1051404",
+          "Microsoft.VisualStudio.Debugger.Metadata": "16.10.1051404",
+          "NETStandard.Library": "2.0.3",
+          "SynergyParser": "1.0.0",
+          "Microsoft.Cci.CodeModel": "0.0.0.2",
+          "Microsoft.Cci.CodeModelToIL": "0.0.0.2",
+          "Microsoft.Cci.ILGenerator": "0.0.0.2",
+          "Microsoft.Cci.MetadataHelper": "0.0.0.2",
+          "Microsoft.Cci.MetadataModel": "0.0.0.2",
+          "Microsoft.Cci.MutableCodeModel": "0.0.0.2",
+          "Microsoft.Cci.MutableMetadataModel": "0.0.0.2",
+          "Microsoft.Cci.PdbReader": "0.0.0.2",
+          "Microsoft.Cci.PeReader": "0.0.0.2",
+          "Microsoft.Cci.PeWriter": "0.0.0.2",
+          "Microsoft.Cci.SourceModel": "0.0.0.2"
+        },
+        "runtime": {
+          "ConcordEE.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.VisualStudio.Debugger.Engine/16.10.1051404": {
+        "dependencies": {
+          "Microsoft.VisualStudio.Debugger.Interop.11.0": "11.0.50728",
+          "Microsoft.VisualStudio.Debugger.InteropA": "9.0.21023"
+        }
+      },
+      "Microsoft.VisualStudio.Debugger.Interop.11.0/11.0.50728": {
+        "dependencies": {
+          "Microsoft.VisualStudio.Debugger.InteropA": "9.0.21023"
+        },
+        "runtime": {
+          "lib/net20/Microsoft.VisualStudio.Debugger.Interop.11.0.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.50727.1"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.Debugger.InteropA/9.0.21023": {
+        "runtime": {
+          "lib/net10/Microsoft.VisualStudio.Debugger.InteropA.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.21022.8"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.Debugger.Metadata/16.10.1051404": {},
+      "Microsoft.VSSDK.Debugger.VSDConfigTool/16.10.1051404": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "SynergyParser/1.0.0": {
+        "runtime": {
+          "SynergyParser.dll": {}
+        }
+      },
+      "Microsoft.Cci.CodeModel/0.0.0.2": {
+        "runtime": {
+          "Microsoft.Cci.CodeModel.dll": {
+            "assemblyVersion": "0.0.0.2",
+            "fileVersion": "0.0.0.2"
+          }
+        }
+      },
+      "Microsoft.Cci.CodeModelToIL/0.0.0.2": {
+        "runtime": {
+          "Microsoft.Cci.CodeModelToIL.dll": {
+            "assemblyVersion": "0.0.0.2",
+            "fileVersion": "0.0.0.2"
+          }
+        }
+      },
+      "Microsoft.Cci.ILGenerator/0.0.0.2": {
+        "runtime": {
+          "Microsoft.Cci.ILGenerator.dll": {
+            "assemblyVersion": "0.0.0.2",
+            "fileVersion": "0.0.0.2"
+          }
+        }
+      },
+      "Microsoft.Cci.MetadataHelper/0.0.0.2": {
+        "runtime": {
+          "Microsoft.Cci.MetadataHelper.dll": {
+            "assemblyVersion": "0.0.0.2",
+            "fileVersion": "0.0.0.2"
+          }
+        }
+      },
+      "Microsoft.Cci.MetadataModel/0.0.0.2": {
+        "runtime": {
+          "Microsoft.Cci.MetadataModel.dll": {
+            "assemblyVersion": "0.0.0.2",
+            "fileVersion": "0.0.0.2"
+          }
+        }
+      },
+      "Microsoft.Cci.MutableCodeModel/0.0.0.2": {
+        "runtime": {
+          "Microsoft.Cci.MutableCodeModel.dll": {
+            "assemblyVersion": "0.0.0.2",
+            "fileVersion": "0.0.0.2"
+          }
+        }
+      },
+      "Microsoft.Cci.MutableMetadataModel/0.0.0.2": {
+        "runtime": {
+          "Microsoft.Cci.MutableMetadataModel.dll": {
+            "assemblyVersion": "0.0.0.2",
+            "fileVersion": "0.0.0.2"
+          }
+        }
+      },
+      "Microsoft.Cci.PdbReader/0.0.0.2": {
+        "runtime": {
+          "Microsoft.Cci.PdbReader.dll": {
+            "assemblyVersion": "0.0.0.2",
+            "fileVersion": "0.0.0.2"
+          }
+        }
+      },
+      "Microsoft.Cci.PeReader/0.0.0.2": {
+        "runtime": {
+          "Microsoft.Cci.PeReader.dll": {
+            "assemblyVersion": "0.0.0.2",
+            "fileVersion": "0.0.0.2"
+          }
+        }
+      },
+      "Microsoft.Cci.PeWriter/0.0.0.2": {
+        "runtime": {
+          "Microsoft.Cci.PeWriter.dll": {
+            "assemblyVersion": "0.0.0.2",
+            "fileVersion": "0.0.0.2"
+          }
+        }
+      },
+      "Microsoft.Cci.SourceModel/0.0.0.2": {
+        "runtime": {
+          "Microsoft.Cci.SourceModel.dll": {
+            "assemblyVersion": "0.0.0.2",
+            "fileVersion": "0.0.0.2"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConcordEE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Debugger.Engine/16.10.1051404": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9cAwDmbVof7FpwN8fa0pymYaxAM6vIcLVymnYzZBapn07Av+pwhbY4LbJdP0/GGE66uam+Tbvh7xHYJHtfmr0g==",
+      "path": "microsoft.visualstudio.debugger.engine/16.10.1051404",
+      "hashPath": "microsoft.visualstudio.debugger.engine.16.10.1051404.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Debugger.Interop.11.0/11.0.50728": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+6jmYT+biLP69qsEKIHKehhoab+15PtQQHwGcLUGV+wgKIeNdyyInjL5lY1NYT1eiO2BTXBtBfv6UrsjM5BvUw==",
+      "path": "microsoft.visualstudio.debugger.interop.11.0/11.0.50728",
+      "hashPath": "microsoft.visualstudio.debugger.interop.11.0.11.0.50728.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Debugger.InteropA/9.0.21023": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GUOG8vlZPDfUENsBbxasoSNtUmi6tS6VqeA0HF6vZ7Dk9HgeWAdICUZd1/Kiw4ujsMCPdC8+xjZcfXOnnQX0NQ==",
+      "path": "microsoft.visualstudio.debugger.interopa/9.0.21023",
+      "hashPath": "microsoft.visualstudio.debugger.interopa.9.0.21023.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Debugger.Metadata/16.10.1051404": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eLllUKSbIY0gIyXa+e3Gy5GQR3DgPuAtY8cC0R7kn8jGU6WinZkQ4E3hd0HvSiFCXAR3KcaJ2sCjmwIiEzm7Jg==",
+      "path": "microsoft.visualstudio.debugger.metadata/16.10.1051404",
+      "hashPath": "microsoft.visualstudio.debugger.metadata.16.10.1051404.nupkg.sha512"
+    },
+    "Microsoft.VSSDK.Debugger.VSDConfigTool/16.10.1051404": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P9IPfVf2j38v1ntjrzdGeS9VYC5a9hC3Shzpj3e7PFS0PeOrmyjOrbWASDPA92iL2pqHhbS5LI4pDLhxSLnxyw==",
+      "path": "microsoft.vssdk.debugger.vsdconfigtool/16.10.1051404",
+      "hashPath": "microsoft.vssdk.debugger.vsdconfigtool.16.10.1051404.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "SynergyParser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Cci.CodeModel/0.0.0.2": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Cci.CodeModelToIL/0.0.0.2": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Cci.ILGenerator/0.0.0.2": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Cci.MetadataHelper/0.0.0.2": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Cci.MetadataModel/0.0.0.2": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Cci.MutableCodeModel/0.0.0.2": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Cci.MutableMetadataModel/0.0.0.2": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Cci.PdbReader/0.0.0.2": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Cci.PeReader/0.0.0.2": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Cci.PeWriter/0.0.0.2": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Cci.SourceModel/0.0.0.2": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

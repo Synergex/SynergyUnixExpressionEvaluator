@@ -3,7 +3,7 @@ A repository containing assemblies which are required to enable expression evalu
 
 How to use:
 1. Ensure that dotnet is installed in the Linux environment. The following link contains information about how to install .NET depending on your Linux distribution: https://learn.microsoft.com/en-us/dotnet/core/install/linux
-    a. For unspported distributions, you will need to follow the manual install instructions: https://learn.microsoft.com/en-us/dotnet/core/install/linux-scripted-manual#manual-install
+    - For unspported distributions, you will need to follow the manual install instructions: https://learn.microsoft.com/en-us/dotnet/core/install/linux-scripted-manual#manual-install
 2. Ensure an initial remote debugging has been done from Visual Studio to the Unix environment, which should create folder: $HOME/.vs-debugger/vs2022
 3. Checkout or copy this repository to the Unix environment
 4. Run CopyDebuggerFiles.sh

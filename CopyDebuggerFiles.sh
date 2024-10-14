@@ -19,6 +19,7 @@
 # SynergyParser.dll
 
 __CopyLocation="$HOME/.vs-debugger/vs2022"
+dotnetVersion=$(dotnet --version)
 
 # Echo a message and exit with a failure
 fail()
@@ -27,6 +28,13 @@ fail()
     echo "$1"
     exit 1
 }
+
+if [  -z "$dotnetVersion" ]
+then 
+    fail "dotnet is not installed. Please install dotnet before continuing."
+else
+    echo "dotnet version is: $dotnetVersion"
+fi
 
 if [ ! -d "$__CopyLocation" ]
 then
